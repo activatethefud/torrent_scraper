@@ -1,5 +1,7 @@
 ### Torrent scraper
 
+![Screenshot](https://i.imgur.com/pb2YToX.png)
+
 This is a simple torrent scraper that works in the terminal. 
 
 Dependencies:
