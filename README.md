@@ -17,6 +17,8 @@ sudo apt-get install python3-bs4 transmission-daemon transmission-remote-cli
 ## Installation
 ```
 git clone https://github.com/nsutic/torrent_scraper
+cd torrent_scraper
+echo "alias torrent='$PWD/torrent.sh'" >> ~/.bashrc
 
 ```
 ## Possible issues
@@ -26,6 +28,6 @@ If authentication fails then change it to your username and password in torrent.
 
 ## Usage
 
-Run torrent.sh from a terminal.
+Run *torrent* from a terminal.
 
  
