@@ -1,6 +1,6 @@
 ### Torrent scraper
 
-![Screenshot](https://i.imgur.com/pb2YToX.png)
+![Screenshot](https://i.imgur.com/IHm1fCW.png)
 
 This is a simple torrent scraper that works in the terminal. (Currently scrapes 1337x.to)
 
