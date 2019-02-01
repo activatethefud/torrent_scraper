@@ -11,7 +11,6 @@ This is a simple torrent scraper that works in the terminal. (Currently scrapes 
 
 ```
 sudo apt-get install python3-bs4 transmission-daemon transmission-remote-cli
-
 ```
 
 ## Installation
@@ -19,7 +18,6 @@ sudo apt-get install python3-bs4 transmission-daemon transmission-remote-cli
 git clone https://github.com/nsutic/torrent_scraper
 cd torrent_scraper
 echo "alias torrent='$PWD/torrent.sh'" >> ~/.bashrc
-
 ```
 ## Possible issues
 
