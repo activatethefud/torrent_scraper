@@ -26,6 +26,6 @@ If authentication fails then change it to your username and password in torrent.
 
 ### Usage
 
-Run *torrent* from a terminal.
+Run ```torrent``` from a terminal.
 
  
