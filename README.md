@@ -1,4 +1,4 @@
-## Torrent scraper
+## Torrent scraper (**DEPRECATED** Better use the [tsearch script](https://github.com/nsutic/scripts/blob/master/tsearch))
 
 ![Screenshot](https://i.imgur.com/IHm1fCW.png)
 
