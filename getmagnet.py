@@ -35,11 +35,11 @@ def Main():
 	html=req.get(link,headers={"User-Agent":"Mozilla/5.0"})
 	if html is None:
 		sys.exit(4)
-	bsObj=BeautifulSoup(html.content,"lxml")
+	bsObj=BeautifulSoup(html.content,"html.parser")
 	
 	#Get torrent table
 	tablerows=bsObj.findAll("tr")
-	if len(tablerows) is 0:
+	if len(tablerows) == 0:
 		sys.exit(5)
 	del tablerows[0]
 	counter=1
@@ -58,7 +58,7 @@ def Main():
 	html=req.get(link,headers={"User-Agent":"Mozilla/5.0"})
 	if html is None:
 		sys.exit(4)
-	bsObj=BeautifulSoup(html.content,"lxml")
+	bsObj=BeautifulSoup(html.content,"html.parser")
 	magnet=bsObj.find("a",href=re.compile("magnet"))['href']
 
 	#Write magnet link to file
